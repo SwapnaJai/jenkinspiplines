@@ -2,11 +2,8 @@ pipeline {
  agent any
   stages {
     stage('checkout single stage'){
-     steps {
-       git'https://github.com/SwapnaJai/jenkinspiplines.git'
      }
-   }
- }
+  }
 }
 
 
