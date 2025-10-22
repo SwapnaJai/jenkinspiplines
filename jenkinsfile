@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("checkout single stage"){
      steps {
-       git''
+       git'https://github.com/SwapnaJai/jenkinspiplines.git'
      }
    }
  }
